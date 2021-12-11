@@ -45,7 +45,7 @@ router.post('/:companyId', auth.authenticate, (req, res) => {
         });
 });
 
-router.get('/', (req, res) => {
+router.get('/', auth.authenticate, (req, res) => {
     Company.find({})
         .then(companies => {
             let teamsCompanyWise = {};

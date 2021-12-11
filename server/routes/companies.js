@@ -54,7 +54,7 @@ router.get('/:companyId', auth.authenticate, (req, res) => {
         });
 });
 
-router.get('/search/:companyName', (req, res) => {
+router.get('/search/:companyName', auth.authenticate, (req, res) => {
     const companyName = req.params.companyName;
     Company.find({ 'name': { '$regex': `.*${companyName}.*`, '$options': 'i' } })
         .then(companies => {
