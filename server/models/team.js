@@ -5,18 +5,15 @@ const { Schema } = mongoose;
 const teamSchema = new Schema({
     uuid: {
         type: String,
-        default: genuuid(),
-        unique: true
+        default: genuuid()
     },
     companyId: {
         type: String,
-        required: true,
-        unique: true
+        required: true
     },
     teamLeadName: {
         type: String,
-        required: true,
-        unique: true
+        required: true
     },
     createdAt: {
         type: Date,

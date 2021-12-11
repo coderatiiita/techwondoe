@@ -58,7 +58,7 @@ router.get('/search/:companyName', (req, res) => {
     const companyName = req.params.companyName;
     Company.find({ 'name': { '$regex': `.*${companyName}.*`, '$options': 'i' } })
         .then(companies => {
-            res.status(200).send(companies);
+            res.status(200).send({ companies });
         }).catch(err => {
             res.status(500).send({ err });
         });
