@@ -54,3 +54,10 @@ Get All Teams (Return all teams as an array grouped within company object)
 
 
 APIs should validate a JWT token before allowing access to the caller.
+
+
+
+## Postman Collection
+https://www.getpostman.com/collections/54d4db90103f32ac6a35
+
+# How to test the code

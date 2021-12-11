@@ -1,0 +1,36 @@
+{
+  "name": "techwondoe_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhvash/techwondoe_assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhvash/techwondoe_assignment/issues"
+  },
+  "homepage": "https://github.com/shubhvash/techwondoe_assignment#readme",
+  "devDependencies": {
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.19",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
