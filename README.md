@@ -67,10 +67,15 @@ Database: MongoDB
 Create a .env file and fill the below values -
 
 PORT=               // application port number
+
 DB_HOST=            // IP of server or its hostname on which DB is hosted
+
 DB_USER=            // user name to login to DB
+
 DB_PASS=            // password for user for that DB
+
 DB_NAME=            // db name 
+
 JWT_SECRET=         // secret for jwt token
 
 
